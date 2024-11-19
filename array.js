@@ -111,4 +111,16 @@ if (jobHolder == true || saveMoney < 200000){
      
  }
 
+ if ((jobHolder == true && saveMoney > 200000) || hasFlat == true){
+   console.log('Jao biye kore neo');
+    
+}
+else {
+   console.log('biye korar dorkar nai');
+    
+}
+ 
+
+
+
 
