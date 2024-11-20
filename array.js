@@ -120,7 +120,47 @@ else {
     
 }
  
+var money =100;
+var danis =50;
+var batterBan=10;
+var toast = 8;
+var wellPacked = true;
+
+if (danis <money) {
+   console.log("danis diye khamu");
+}
+else if (batterBan < money) {
+   console.log("batterBan diye khamu");
+}
+else if (toast < money) {
+   console.log("toast diye khamu");
+}
+else {
+   console.log("batasha diye khamu");
+   
+}
 
 
+//if...else if.. statement.
+
+var tourDestination = [ 'coxs bazar','nepal','srilanka','island'];
+if(tourDestination[0] == 'nepal'){
+   console.log('Nepal giye pahar dkhbo');
+   
+}
+else if(tourDestination[1] == 'nepal') {
+   console.log('Nepal giye pahar dkhbo');
+   
+
+}
+else if (tourDestination[2] == 'lonka'){
+   console.log('srilanka jabo');
+   
+}
+else{
+   console.log('tk nai');
+   
+}
+///if ...else if statement.
 
 
